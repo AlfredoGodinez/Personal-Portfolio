@@ -1,0 +1,7 @@
+[build]
+  base = "client/build"  # Path to your React app build folder
+  publish = "server"     # Path to your server folder
+  command = "npm run build"  # Command to build React application
+
+[dev]
+  command = "concurrently \"npm run server\" \"npm run client\""
