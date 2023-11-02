@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"  # Comando para construir la aplicación React
+
+[dev]
+  command = "npm run dev"    # Comando para ejecutar la aplicación React y el servidor Node.js
+
+[functions]
+  command = "npm run server" # Comando para ejecutar el servidor Node.js
