@@ -6,7 +6,7 @@ import headerImg from "../assets/img/symbol.png";
 
 export const Banner = () => {
   // Define the rotation text and other state variables
-  const toRotate = ["Hi! I'm Alfredo Godínez"];
+  const toRotate = ["Hi! This is Alfredo Godínez"];
   const period = 2000;
 
   const [text, setText] = useState('');
